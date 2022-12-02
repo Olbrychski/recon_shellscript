@@ -12,5 +12,5 @@ nmap $DOMAIN > $DIRECTORY/nmap
 echo "Results of nmap scan are stored in $DIRECTORY/nmap."
 
 $PATH_TO_DIRSEARCH/dirsearch.py -u $1 --exclude-status 403,401 --output=$DIRECTORY/dirsearch
-echo "The results of dirsearch scan are stored in $DIRECTORY/dirsearch."
+echo "Results of dirsearch scan are stored in $DIRECTORY/dirsearch."
 
